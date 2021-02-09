@@ -1,0 +1,42 @@
+p{
+  margin: 0;
+  padding: 0;
+}
+.common_page_wapper{
+  overflow: auto;
+  // padding: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  
+  .page_search, .page_table {
+    // border-bottom: 1px dashed #e8e8e8;
+    background: #fff;
+    margin-bottom: 20px;
+  }
+  .page_border{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  .page_table{
+    padding: 24px 48px;
+  }
+  
+}
+
+@mixin bg($url) {
+  background-image: url($url);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+@mixin center($direction,$justify) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: center;
+}
+
+$mainColor: #1890ff

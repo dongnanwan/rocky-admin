@@ -1,0 +1,24 @@
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.common_page_wapper {
+  overflow: auto;
+  padding: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  /* background: #fff; */
+}
+
+.common_page_wapper .page_search {
+  border-bottom: 1px dashed #e8e8e8;
+  background: #fff;
+}
+
+.common_page_wapper .page_border {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
